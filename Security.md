@@ -1,5 +1,8 @@
 # Getting started
 
+* [Setup client security](#setup-client-security)
+
+
 # Setup client security
 
 ## Register ClientAuthService
