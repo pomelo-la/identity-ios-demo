@@ -6,7 +6,7 @@
 * [Using Identity](#using-identity)
   1. Install the SDK
   2. Initialize the SDK
-  3. 
+  3. Authorization
 * [Setting up your theme](https://github.com/pomelo-la/ui-ios/blob/develop/README.md)
 * [Release Notes](#release-notes)
 
@@ -81,6 +81,16 @@ A set of callbacks will be provided to the client in order to provide feedback a
 * **Cancel by user**: This state indicates that the user has canceled the session, it is possible to resume the session if it is not expired.
 * **Rejected**: indicates that session is rejected meaning that user is no longer eligible for identity check.
 * **Not validated**: indicates that the information provided by the user is not valid but can start the process again with a new session id.
+
+## Authorization
+To communicate with Pomelo's API you must [generate an Access Token](https://developers.pomelo.la/api-reference/general/autorizacion/solicitar-token) to create/get an **User ID** and generate a **Session ID**. Usually this bussiness logic should live in your backend.
+
+To communicate with Pomelo's Identity SDK you must generate an **End User Token** which is a JWT token that expires in a certain amount of time and it has to be generated again and set in the `AuthTokenListener`
+
+<img src="https://user-images.githubusercontent.com/9848247/187751184-6aa86f71-0941-4dc6-876b-6dd717ceca43.png"/>
+
+*Click image to view full screen*
+
 
 # Release Notes
 ## 1.0.0
