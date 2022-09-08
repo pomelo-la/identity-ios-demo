@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/PomeloIdentity.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		33VfYleeDyv0erhmEaiRvBCkB9o=
+		ZJToZjNkKN7SOUL3fHM87VEkBns=
 		</data>
 		<key>Modules/PomeloIdentity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8MOercJnWraAbymZBroL4a2+gt4=
+		epTnSKc2QKMk/l2JwF+pkQW9aqY=
 		</data>
 		<key>Modules/PomeloIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PomeloIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YTjQsRkUCpWTFQhcAQlpIuFW/XE=
+		19dmgxxqZiUiPoRh/Xvg1cmzz94=
 		</data>
 		<key>Modules/PomeloIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6cxp/+Ep7bolEaXSy/2CcOX6ETY=
+		sDZRuP4slgnh3WZ7ENlhXNjd7OQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,14 +99,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xzWA8vZv0yr2AW9+IjFgSwa/Lyg1OQP4wW25NXv8kO0=
+			r7J1Nxc2FsDw7B69BEHN5JUsXLTYLxvWTONl1G5dyXA=
 			</data>
 		</dict>
 		<key>Modules/PomeloIdentity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qszYYNlsjQp4mIg/HhRXGqubHyDjGfasOl0mJnkTiDI=
+			oBuhjCxqWU41D4xx9N3CB1i4OBiSCmhBMgOs8iEzBjw=
 			</data>
 		</dict>
 		<key>Modules/PomeloIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -120,14 +120,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NwpNTzScuikD0JCPIDDHqiqszCCPYCBjAWkvRrRGpyY=
+			ts2z20v+L4m1HRa5PNGE1SgvY0prOFkokkB+PUQCOtY=
 			</data>
 		</dict>
 		<key>Modules/PomeloIdentity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WpPsHYOMIk/P9v6Y5vUrHMvc9F5eYbicayBEm6aMyVQ=
+			mwZbZ8bu8Kh44YWu5cizjWlp5eZ0bkP5JWuhmJpvMtw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
