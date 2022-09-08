@@ -1,0 +1,4 @@
+framework module PomeloIdentity {
+  header "PomeloIdentity-Swift.h"
+  requires objc
+}

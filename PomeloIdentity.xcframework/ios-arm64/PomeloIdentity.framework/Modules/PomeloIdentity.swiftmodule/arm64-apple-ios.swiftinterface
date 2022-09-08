@@ -1,0 +1,57 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PomeloIdentity
+import AVFoundation
+import FaceTecSDK
+import Foundation
+import PomeloAnalytics
+import PomeloNetworking
+import PomeloServerDrivenUI
+import PomeloUI
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+public enum SessionResult {
+  case success
+  case failure(error: PomeloIdentity.SessionError)
+}
+#warning("Remove Optional when bff fix onbording BR")
+#warning("Remove Optional when bff fix onbording BR")
+@_hasMissingDesignatedInitializers public class PomeloIdentitySDK {
+  public static let shared: PomeloIdentity.PomeloIdentitySDK
+  public func initialize(with configuration: PomeloIdentity.PomeloIdentityConfiguration)
+  public func launchIdentity(on navigation: UIKit.UINavigationController, completion: @escaping (PomeloIdentity.SessionResult) -> Swift.Void)
+  @objc deinit
+}
+public enum SessionError : Swift.String, Swift.Error {
+  case expired
+  case cancelByUser
+  case rejected
+  case notValidated
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PomeloIdentityConfiguration {
+  public enum IdentityEnvironment {
+    case development
+    case stage
+    case production
+    public static func == (a: PomeloIdentity.PomeloIdentityConfiguration.IdentityEnvironment, b: PomeloIdentity.PomeloIdentityConfiguration.IdentityEnvironment) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public init(environment: PomeloIdentity.PomeloIdentityConfiguration.IdentityEnvironment, sessionId: Swift.String)
+}
+#warning("Remove Optional when bff fix onbording BR")
+extension PomeloIdentity.SessionError : Swift.Equatable {}
+extension PomeloIdentity.SessionError : Swift.Hashable {}
+extension PomeloIdentity.SessionError : Swift.RawRepresentable {}
+extension PomeloIdentity.PomeloIdentityConfiguration.IdentityEnvironment : Swift.Equatable {}
+extension PomeloIdentity.PomeloIdentityConfiguration.IdentityEnvironment : Swift.Hashable {}
