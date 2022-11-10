@@ -22,7 +22,7 @@
 
 To install the SDK via SPM, follow these steps:
 
-1. In Xcode, select File > Swift Packages > Add Package Dependency and enter https://github.com/pomelola/identity-ios-sdk.git as the repository URL.
+1. In Xcode, select File > Swift Packages > Add Package Dependency and enter git@github.com:pomelo-la/identity-ios-demo.git as the repository URL.
 2. Select a minimum version of 1.0.0 (latest version available in release notes)
 
 ### Cocoapods
